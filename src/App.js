@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {Route, Routes} from "react-router-dom";
+import Page from "./components/page";
+import About from "./components/home";
+import HW1 from "./components/hw1";
+import ProjectsPage from "./components/projects";
+import Projects from "./components/projects";
+import Test from "./components/testPage"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+// Inside Route correctly route Component One, Two, and Three to url /1, /2 and /3
+  return(
+      <Routes>
+          <Route path={"/"} element={<Page />}>
+              <Route index element={<About />}/>
+              <Route path={"projects/*"} element={<Projects />}/>
+              <Route path={"test"} element={<Test />}/>
+          </Route>
+
+      </Routes>
+  )
 }
 
-export default App;
+export default App
