@@ -1,7 +1,6 @@
 export default function HW1(){
+
     return(
-        <>
-            <p>First homework</p>
-        </>
+        <p>First homework</p>
     )
 }

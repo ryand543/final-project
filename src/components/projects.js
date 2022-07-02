@@ -8,7 +8,6 @@ import ProjectsPage from "./projectsPage";
 import ProjectsDesc from "./projectsDesc";
 
 function Projects(){
-// Inside Route correctly route Component One, Two, and Three to url /1, /2 and /3
     return(
         <Routes>
             <Route path={"/"} element={<ProjectsPage />}>
