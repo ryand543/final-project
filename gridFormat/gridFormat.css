@@ -1,0 +1,30 @@
+.Block-Even {
+    text-align: center;
+    background-color: green;
+    max-width: 100px;
+}
+
+.Block-Odd {
+    text-align: center;
+    background-color: yellow;
+    max-width: 100px;
+}
+
+.Block-Prime {
+    text-align: center;
+    background-color: red;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    max-width: 100px;
+}
+
+.Grid-Format {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    grid-auto-rows: 50px;
+    align-items: start;
+    margin-left: 20px;
+
+}

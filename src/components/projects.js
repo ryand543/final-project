@@ -15,10 +15,10 @@ function Projects(){
         <Routes>
             <Route path={"/"} element={<ProjectsPage />}>
                 <Route index element={<ProjectsDesc />}/>
-                <Route path={"1"} element={<HW1 />}/>
-                <Route path={"2"} element={<HW2 />}/>
-                <Route path={"3"} element={<HW3 />}/>
-                <Route path={"4"} element={<HW4 />}/>
+                {/*<Route path={"1"} element={<HW1 />}/>*/}
+                {/*<Route path={"2"} element={<HW2 />}/>*/}
+                {/*<Route path={"3"} element={<HW3 />}/>*/}
+                {/*<Route path={"4"} element={<HW4 />}/>*/}
             </Route>
 
         </Routes>

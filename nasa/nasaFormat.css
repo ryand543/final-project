@@ -1,0 +1,26 @@
+body {
+    background-color: #ffdbdaff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    font-size: 2em;
+    margin: 10px;
+    color: #604d53ff;
+}
+.contents-container {
+    display: flex;
+}
+
+main {
+    text-align: center;
+    color: #604d53ff;
+}
+
+footer {
+    text-align: center;
+}
+
