@@ -1,11 +1,9 @@
 import React from "react";
 import {Link, Route, Routes} from "react-router-dom";
-import Page from "./page";
 import HW1 from "./hw1";
 import HW2 from "./hw2";
 import HW3 from "./hw3";
 import HW4 from "./hw4";
-import About from "./home";
 import ProjectsPage from "./projectsPage";
 import ProjectsDesc from "./projectsDesc";
 
