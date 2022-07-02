@@ -1,4 +1,4 @@
-import * as d3 from "express";
+import * as d3 from 'https://cdn.skypack.dev/d3@7';
 
 function graphData() {
     let margin = {top: 10, right: 100, bottom: 40, left:60}
